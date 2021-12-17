@@ -1,0 +1,11 @@
+penroot pen
+
+set name null
+set age null
+set birth null
+
+in name Name:
+in age Age:
+
+out Hello %name% !!
+out You are %age% years old.

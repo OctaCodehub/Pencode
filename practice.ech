@@ -1,0 +1,17 @@
+echroot ech
+
+func lol e false
+  echout function syntax:
+  nline
+  echout func name ~ false 
+  echout 
+  echout func name ~ true 
+  nline
+  echout then use ecall to call the function
+  func lol e true
+
+ecall lol
+
+argument 1 - name
+argument 2 - doesnt matter
+argument 3 - end?

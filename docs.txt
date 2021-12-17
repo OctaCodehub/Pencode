@@ -1,0 +1,20 @@
+PENCODE 1.0 DOCUMENTATION
+
+1. I/O COMMANDS:
+  - echout: to print text
+  - echin: input
+2. _baseLib COMMANDS:
+  - echroot: defines the root to get commands from
+3. BLOCK COMMANDS:
+  - efunc: a block of code that is ran by ecall
+    syntax:
+      efunc name ~ false
+        {code}
+        efunc name ~ true
+4. ACCESS COMMANDS:
+  - ecall {function name}:used to call a function
+5. STORAGE COMMANDS:
+  - set {name} {value}: creates a variable which is used by echin
+6. HACKING COMMANDS:
+  - moneyThresh {serverName}: returns a recommended value of money that should stay in server.
+

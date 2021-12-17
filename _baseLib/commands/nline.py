@@ -1,0 +1,2 @@
+def nline():
+  print("\n")
